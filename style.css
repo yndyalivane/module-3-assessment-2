@@ -1,0 +1,290 @@
+/**** Pages Fontstyle ***/
+@font-face {
+    src: url(fonts/librefonts/LibreCaslonText-Bold.ttf);
+    font-family: Libre; 
+}
+
+@font-face {
+    src: url(fonts/Playball/Playball-Regular.ttf);
+    font-family: Playball;   
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+body {
+    position: relative;
+    padding-bottom: 104px;
+    min-height: 100vh;
+}
+
+/******** Body-Div-Settings**********/
+body#home{
+    background-image: url('images/background-02-port.png');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+/**** Straters-page ****/
+
+body#starters-course{
+    background-image: url('images/staters\ meun.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+/***** Drinks-page ****/
+
+body#drinks{
+    background-image: url('images/energy-drinks-3.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+/**** meals-page ****/
+body#main-course{
+    background-image: url('images/Chilli-garlic-prawns-starter-14.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+/**** Dessert-Page***/
+body#dessert{
+    background-image: url('images/No-Bake-Dessert-Recipes-480x480.webp');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+/******** Order-Page********/
+body#order {
+    background-image: url('images/background-02-port.png');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+/***** header*****/
+
+/******* Restaurant Name****/
+
+.store-name{
+    text-align: center;
+    padding:10px 0px 0px 0px;
+    font-size:60px;
+    font-family: Playball;
+    color: skyblue;
+}
+/*********Left &  Right Arrrows*/
+.nav-right{
+    font-size: 35px;
+    color: rgb(9, 71, 129);
+}
+#nav-right{
+    float: right;
+    padding-right:15px;
+}
+
+.nav-left{
+    padding-left:15px;
+    font-size: 35px;
+    color: rgb(9, 91, 129);
+}
+
+#food-name  {
+    text-align: center;
+    font-size:25px;
+    color: rgb(9, 129, 129);
+    font-family:Libre;
+}
+
+/******************** Main Div ***********/
+main#foods {
+    background-image: url('images/textured-wall-large.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100%;
+    background-attachment: fixed;
+}
+
+main .food-menu {
+    width: 100%;
+    height: 400px;
+}
+
+main .food-menu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.Serving {
+    color: rgb(9, 105, 129);
+    font-family:Libre;
+}
+.Serving p {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+
+.Ingredients h2 {
+    text-align:center;
+    font-size:25px;
+    color: rgb(9, 129, 129);
+    font-family:Libre;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Ingredients p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 10px;
+    color: white;
+    width:100%;
+    padding: 10px 10px;
+}
+.Ingredients li {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 10px;
+    color: whitesmoke;
+    width:100%;
+}
+
+.extras {
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+textarea {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+#comm-label {
+    padding-top: 5px;
+    font-size:25px;
+    color: skyblue;
+    font-family:Libre;
+}
+button {
+    padding:7px;
+    font-family: Libre;
+    background-color: rgba(11, 129, 9, 1);
+    margin-bottom: 25px;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+/******** Order-Page-Main *********/
+main#order-comm h1 {
+    text-align:center;
+    font-size:25px;
+    color: salmon;
+    font-family:Libre;
+}
+
+main#order-comm p {
+    padding-top: 30px;
+    text-align:center;
+    font-size:12px;
+    color: skyblue;
+    font-family:Libre;
+}
+
+main#order-comm h2 {
+    text-align:center;
+    font-size:30px;
+    color: sandybrown;
+    font-family:Libre;
+    padding-top: 30px;
+}
+
+
+/******* Meal-Option-Btn*******/
+#Meal-option-btn{
+    position: absolute;
+    top:50%;
+    width:100%;
+    transform: translateY(-50%);
+}
+
+.menu-item {
+    text-decoration: none;
+    color:white;
+    background-color:aquamarine;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid aquamarine;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 20px;
+    margin-right:25%;
+    margin-left:25%;
+    font-family: Libre;
+}
+.menu-item:hover{
+    color:aqua;
+    background-color:transparent;
+}
+
+
+
+/************Footer*********/
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+}
+/***fontawesome icons***/
+.social{
+    display:inline-block;
+    font-size:30px;
+    padding:20px 20px;
+}
+
+.social:hover{
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+
+
+@media only screen and (min-width: 700px) {
+    body {
+        width: 80%;
+        margin: auto;
+    }
+    .social{
+        display:inline-block;
+        font-size:30px;
+        padding:40px 40px;
+    }
+    
+}
